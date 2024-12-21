@@ -1,11 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #444;
+}
 .container {
   display: flex;
+  width: 920px;
+  margin: auto;
 }
 .left {
-  width: 50%;
+  width: 340px;
   height: 100vh;
   background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+}
+
+.right {
+  width: 580px;
+  background-color: #fff;
 }
