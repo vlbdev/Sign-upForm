@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+}
+.left {
+  width: 50%;
+  height: 100vh;
+  background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
