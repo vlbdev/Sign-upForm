@@ -24,3 +24,10 @@ body {
   width: 580px;
   background-color: #fff;
 }
+
+.left-text {
+  background-color: #00000080;
+  color: white;
+  font-size: 3em;
+  text-align: center;
+}
