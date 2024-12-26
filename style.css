@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -40,4 +41,13 @@ p {
 }
 .left-text {
   padding: 10px;
+}
+
+.left {
+  position: relative;
+}
+.left-text {
+  position: absolute;
+  width: 100%;
+  top: 145px;
 }
