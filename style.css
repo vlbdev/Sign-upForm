@@ -38,7 +38,7 @@ body {
   text-align: center;
 }
 p {
-  padding: 0 20px;
+  padding: 0 30px;
 }
 
 .left-text img {
@@ -60,4 +60,12 @@ p {
   position: absolute;
   width: 100%;
   top: 143px;
+}
+
+fieldset {
+  background-color: #fff;
+  padding: 20px 0;
+  border: none;
+  box-shadow: 0 5px 5px #eee;
+  margin: 20px 0;
 }
