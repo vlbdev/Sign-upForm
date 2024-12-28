@@ -67,7 +67,6 @@ p {
 
 fieldset {
   background-color: #fff;
-  padding: 20px 0;
   border: none;
   box-shadow: 0 5px 5px #eee;
   margin: 20px 0;
@@ -75,4 +74,17 @@ fieldset {
 
 .right > p:first-child {
   margin-top: 100px;
+}
+
+div > p {
+  font-weight: bold;
+}
+
+.cta {
+  font-weight: bold;
+}
+
+.login {
+  font-weight: normal;
+  font-size: small;
 }
