@@ -88,3 +88,11 @@ div > p {
   font-weight: normal;
   font-size: small;
 }
+
+button {
+  padding: 5px 30px;
+  background-color: #596d48;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
