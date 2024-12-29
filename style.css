@@ -101,3 +101,13 @@ button {
   display: grid;
   grid-template-columns: 200px 200px;
 }
+
+.login a {
+  color: #596d48;
+  text-decoration: none;
+}
+label {
+  text-transform: uppercase;
+  font-size: x-small;
+  letter-spacing: 2px;
+}
