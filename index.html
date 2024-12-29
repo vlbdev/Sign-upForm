@@ -54,7 +54,13 @@
               <label for="password">
                 Password
                 <br />
-                <input type="password" id="password" name="password" />
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  minlength="8"
+                  required
+                />
               </label>
               <label for="confirmPassword">
                 Confirm Password
@@ -63,6 +69,8 @@
                   type="password"
                   id="confirmPassword"
                   name="confirmPassword"
+                  minlength="8"
+                  required
                 />
               </label>
             </p>

@@ -111,3 +111,19 @@ label {
   font-size: x-small;
   letter-spacing: 2px;
 }
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  outline: none;
+  border-color: blue;
+  box-shadow: 1px 1px 5px #999;
+}
+
+input:invalid {
+  border-color: red;
+}
